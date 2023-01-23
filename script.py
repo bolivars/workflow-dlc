@@ -13,4 +13,5 @@ precipitation = data.iloc[:, 1]
 plt.plot(precipitation)
 plt.xlabel('Observation')
 plt.ylabel('Precipitation')
+plt.savefig('precipitation-series.jpeg')
 plt.show()
